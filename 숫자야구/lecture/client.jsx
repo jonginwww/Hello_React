@@ -1,5 +1,5 @@
 const React = require("react");
-const ReactDom = require("react-dom");
-const BaseBall = require("./BaseBall");
+const ReactDOM = require("react-dom");
+const NumberBaseball = require("./NumberBaseball");
 
-ReactDom.createRoot(document.querySelector("#root")).render(<BaseBall />);
+ReactDOM.createRoot(document.querySelector("#root")).render(<NumberBaseball />);
